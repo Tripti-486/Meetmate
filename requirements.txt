@@ -1,0 +1,52 @@
+# FastAPI and server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# AI and LLM dependencies
+openai==1.3.7
+langchain==0.0.345
+langchain-openai==0.0.2
+crewai==0.152.0
+
+# Audio processing and transcription
+openai-whisper==20231117
+assemblyai==0.17.0
+pydub==0.25.1
+
+# Calendar integration
+google-api-python-client==2.108.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==2.0.12
+microsoft-graph-auth==0.7.0
+msgraph-core==0.2.2
+
+# Database and storage
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Email and notifications
+smtplib-ssl==1.0.4
+email-validator==2.1.0
+
+# PDF generation and file handling
+reportlab==4.0.7
+fpdf2==2.7.6
+python-docx==1.1.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.0
+python-dateutil==2.8.2
+pytz==2023.3
+requests==2.31.0
+pandas==2.1.3
+numpy==1.25.2
+jinja2==3.1.2
+
+# Development dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0 
